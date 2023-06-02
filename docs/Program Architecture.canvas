@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"3fe1dbf0c24f8041","x":-102,"y":-395,"width":250,"height":60,"type":"text","text":"Engine"},
+		{"id":"a301b58d6ca7e311","x":-386,"y":-182,"width":250,"height":60,"type":"text","text":"Renderer"},
+		{"id":"54aef6bcf7dd5361","x":41,"y":-180,"width":250,"height":60,"type":"text","text":"Signal Handler"},
+		{"id":"784a6ba086b77930","x":-528,"y":31,"width":250,"height":60,"type":"text","text":"Vulkan Context"},
+		{"id":"57ac07d881a904bc","x":-244,"y":31,"width":250,"height":60,"type":"text","text":"GUI"}
+	],
+	"edges":[
+		{"id":"22007569ad1cd192","fromNode":"a301b58d6ca7e311","fromSide":"top","toNode":"3fe1dbf0c24f8041","toSide":"bottom"},
+		{"id":"bed4f6bb87b8cb8c","fromNode":"54aef6bcf7dd5361","fromSide":"top","toNode":"3fe1dbf0c24f8041","toSide":"bottom"},
+		{"id":"28e0ae90965e12b5","fromNode":"784a6ba086b77930","fromSide":"top","toNode":"a301b58d6ca7e311","toSide":"bottom"},
+		{"id":"3bd22a3e941536d9","fromNode":"57ac07d881a904bc","fromSide":"top","toNode":"a301b58d6ca7e311","toSide":"bottom"}
+	]
+}
